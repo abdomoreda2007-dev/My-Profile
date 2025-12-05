@@ -1,0 +1,346 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 0.2px;
+  margin: 0px;
+  background-color: #fcefef;
+  color: #000000;
+  min-height: 2000px;
+  width: 100%;
+}
+
+/* ===================Nav=================== */
+
+.header {
+  background-color: #3abb94;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  box-shadow: 10px 10px 10px #7fd8be;
+  z-index: 9999;
+}
+
+span {
+  color: #fcefef;
+  transition: 0.5s ease;
+}
+span:hover {
+  color: #fcab64;
+}
+
+.name {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  padding-left: 20px;
+  text-shadow: 5px 5px 20px rgb(203, 203, 203);
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  padding: 15px;
+  transition: 0.5s ease;
+}
+
+nav {
+  padding-right: 20px;
+  text-shadow: 2px 2px 20px rgb(71, 71, 71);
+}
+
+nav a:hover {
+  color: #fcab64;
+}
+
+/* ===================Nav=================== */
+
+/* ===================Info=================== */
+
+.info {
+  text-align: center;
+}
+
+.info h1 {
+  font-size: 50px;
+  margin-top: 250px;
+  margin-bottom: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 2px 2px 25px rgb(96, 96, 96);
+}
+
+.info h3 {
+  font-size: 25px;
+  margin-bottom: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 1px 2px 15px rgba(45, 45, 45, 0.603);
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: #3abb94;
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 10px 10px 10px #7fd8be;
+  margin-bottom: 200px;
+  transition: 0.5s ease;
+}
+
+.link:hover {
+  background-color: #b0b0b0;
+  box-shadow: 10px 10px 10px #b0b0b0;
+  transform: scale(1.1);
+}
+
+/* ===================Info=================== */
+
+/* ===================About=================== */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 350px;
+}
+
+.about-me {
+  margin-top: 200px;
+  text-align: center;
+  padding: 20px;
+  background-color: #3abb94;
+  width: 750px;
+  border-radius: 30px;
+  margin-left: 90px;
+  align-items: center;
+  box-shadow: 10px 10px 10px #7fd8be;
+  transition: 0.7s ease;
+}
+.about-me:hover {
+  transform: scale(1.1);
+}
+.img:hover {
+  transform: scale(1.1);
+}
+
+.about {
+  font-size: 35px;
+  display: flex;
+  width: 600px;
+  margin-left: 15px;
+  text-shadow: 4px 4px 25px rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+.about:hover {
+  color: #fcab64;
+  transition: 0.5s ease;
+}
+
+.about-info {
+  font-size: 20px;
+  line-height: 50px;
+  display: flex;
+  width: 700px;
+  text-shadow: 2px 2px 25px rgb(240, 240, 240);
+}
+
+.img {
+  padding-top: 190px;
+  transition: 0.7s ease;
+}
+
+.about-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  border: 3px solid #7fd8be;
+  box-shadow: 10px 10px 15px #7fd8be;
+}
+
+/* ===================About=================== */
+
+/* ===================Cards=================== */
+
+.cards-container {
+  margin-top: 500px;
+  margin-bottom: 350px;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.h-cards {
+  font-size: 20px;
+  margin-left: 40px;
+  text-shadow: 2px 2px 25px rgb(126, 126, 126);
+}
+
+.Card {
+  font-size: 30px;
+  background-color: #3abb94;
+  width: 360px;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 30px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+  line-height: 55px;
+  text-shadow: 5px 5px 25px rgb(255, 255, 255);
+}
+.Card:hover {
+  transform: scale(1.1);
+}
+.h-cards:hover {
+  color: #fcab64;
+  transition: 0.5s ease;
+}
+
+#card-1,
+#card-2,
+#card-3,
+#card-4 {
+  box-shadow: 10px 10px 10px #7fd8be;
+}
+
+/* ===================Cards=================== */
+
+/* ===================Contact=================== */
+.contact-container {
+  margin: 0px 20px;
+  padding-bottom: 150px;
+  padding-top: 80px;
+  text-align: left;
+  margin-bottom: 500px;
+  background-color: #fcefef;
+  box-shadow: 0px 0px 15px #797979;
+  border-radius: 50px;
+}
+
+.h-con {
+  font-size: 30px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  text-shadow: 2px 2px 25px rgb(96, 96, 96);
+}
+
+.form {
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #3abb94;
+  border-radius: 35px;
+  text-shadow: 3px 2px 25px rgb(255, 255, 255);
+}
+
+.content {
+  font-size: 25px;
+}
+
+.inp {
+  width: 390px;
+  height: 45px;
+  border-radius: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 10px 35px;
+  border: none;
+  box-shadow: 3px 2px 25px #ffffff;
+}
+.inp:focus {
+  width: 400px;
+  height: 50px;
+  border: none;
+  transition: 0.5s ease;
+}
+
+#send {
+  color: #0a0a0a;
+  background-color: #fcefef;
+  padding: 15px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 210px;
+  border: none;
+  box-shadow: 3px 2px 25px #ffffff;
+}
+
+#send:hover {
+  color: #fcab64;
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
+/* ===================Contact=================== */
+
+/* ===================Footer=================== */
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.contact-links a {
+  margin: 0 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.insta {
+  color: rgb(208, 0, 208);
+  text-shadow: 3px 2px 25px rgb(208, 0, 208);
+  letter-spacing: 2px;
+}
+.insta:hover {
+  font-size: 15px;
+  transition: 0.5s ease;
+}
+.dis {
+  color: rgb(0, 31, 208);
+  text-shadow: 3px 2px 25px rgb(0, 31, 208);
+  letter-spacing: 2px;
+}
+.dis:hover {
+  font-size: 15px;
+  transition: 0.5s ease;
+}
+.git {
+  color: rgb(235, 235, 235);
+  text-shadow: 3px 2px 25px rgb(225, 225, 225);
+  letter-spacing: 2px;
+}
+.git:hover {
+  font-size: 15px;
+  transition: 0.5s ease;
+}
+
+/* ===================Footer=================== */
